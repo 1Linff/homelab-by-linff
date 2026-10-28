@@ -1,0 +1,7 @@
+# /etc/fail2ban/jail.local
+[sshd]
+enabled  = true
+port     = <PORTA_SSH>
+maxretry = 5
+findtime = 10m
+bantime  = 1h

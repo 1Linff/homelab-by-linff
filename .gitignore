@@ -1,0 +1,7 @@
+# Nunca versionar segredos
+*.backup
+*.key
+*.pem
+**/wg0.conf
+!**/*.example
+.env
